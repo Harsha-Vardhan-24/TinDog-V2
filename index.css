@@ -1,0 +1,101 @@
+html,
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #b8b8ff;
+    font-family: "Nunito", sans-serif;
+    color: #f8f7ff;
+}
+
+header {
+    height: 10vh;
+    background-color: #9381ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.header-icons {
+    height: 2.5rem;
+}
+
+.data-area {
+    position: relative;
+    display: inline-block;
+}
+
+.dog-img {
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+.text-area {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+}
+
+.text-area h3,
+.text-area p {
+    margin: 0;
+}
+
+.text-area h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0.5em 0;
+}
+
+.text-area p {
+    font-size: 1.2rem;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: #9381ff;
+}
+
+.liked-dogs {
+    text-align: center;
+    display: none;
+}
+
+.liked-dog-data {
+    padding: 1em;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.liked-dog-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+.liked-dog-text h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.liked-dog-text p {
+    font-size: 1.2rem;
+}
